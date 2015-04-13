@@ -15,7 +15,7 @@
 # limitations under the License.
 
 VENDOR=samsung
-DEVICE=i9100
+DEVICE=sc02c
 DEVICEOUTDIR=vendor/$VENDOR/$DEVICE
 DEVICEBASE=../../../$DEVICEOUTDIR/proprietary
 DEVICEMAKEFILE=../../../$DEVICEOUTDIR/$DEVICE-vendor-blobs.mk

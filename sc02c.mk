@@ -17,7 +17,7 @@
 # Include common makefile
 $(call inherit-product, device/samsung/galaxys2-common/common.mk)
 
-LOCAL_PATH := device/samsung/i9100
+LOCAL_PATH := device/samsung/sc02c
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
@@ -50,4 +50,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/usr/idc/mxt224_ts_input.idc:system/usr/idc/mxt224_ts_input.idc \
     $(LOCAL_PATH)/usr/idc/sec_touchscreen.idc:system/usr/idc/sec_touchscreen.idc
 
-$(call inherit-product-if-exists, vendor/samsung/i9100/i9100-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/sc02c/sc02c-vendor.mk)
